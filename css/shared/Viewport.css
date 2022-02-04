@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+@media not screen and (min-width: 480px) 
+{
+	main, .wrap {width:100%;}
+	header, header.alt {
+		padding-left:10px;
+		padding-right:10px;}
+	nav {overflow:auto;}
+	nav table.menu td a {
+		padding-left:15px;
+		padding-right:15px;}
+	.news table.post td.left {width:100px;}
+	.calendar ul.feed {margin:10px 0;}
+	.calendar ul.feed li {width:100%;}
+	.contacts ul.feed li {width:90%;}
+	.contacts ul.feed li .name {font-size:18px;}	
+	.about main {padding-top:50px;}
+	.about .appname {font-size:28px;}		
+	.admin form {padding:0 10px;}
+	.admin .input-file label, 
+	.admin .input-file input {width:100%;}
+}

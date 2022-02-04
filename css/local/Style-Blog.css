@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+.troubleshoot {
+	padding:0 10px;
+	margin:20px auto;
+	text-align:center;}
+.troubleshoot img {display:inline-block;}
+.troubleshoot h2 {
+	text-align:center; 
+	margin:10px 0 0;}
+.troubleshoot h3 {
+	text-align:left;
+	font-size:16px;}
+.troubleshoot ol {
+	margin-left:20px;
+	text-align:left;}
+.troubleshoot li a {
+	color:#EE1111;
+	display:inline; }
+	
+	
+figure {
+	background-size:contain;
+	border:solid thin #DDD;}	
+.thumbnail {height:250px;}
+.headline {
+	padding:10px;
+	padding-bottom:0;
+	font-weight:bold;
+	font-size:24px;}	
+.byline {
+	padding:5px 10px;
+	font-size:14px;}	
+.footnote {
+	padding:0 10px;
+	color:#555;
+	font-size:14px;}
+figure {
+	margin:10px 0 0;}
+.figcaption {
+	padding:5px 10px 0;
+	color:#555;
+	font-size:14px;
+	font-style:italic;}
+article {padding:10px;}
+article a {display:inline;}

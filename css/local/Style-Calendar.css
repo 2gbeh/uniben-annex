@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+ul.feed {}
+ul.feed li {}
+ul.feed li.top {
+	padding:10px 15px;
+	border-bottom:solid thin #DDD;
+	display:block;}
+ul.feed li.top:hover {
+	background-color:#EEE;
+	cursor:default;}
+ul.feed li section {
+	padding:10px 15px;
+	margin:5px 0;}
+ul.feed li sup {
+	font-size:12px;
+	vertical-align:top;
+	cursor:help;}
+ul.feed li .faculty {
+	margin-top:10px;
+	color:#555;
+	font-size:14px;}	

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+table.feed tr {
+	border-bottom:solid thin #DDD;
+	vertical-align:top;}
+table.feed th {
+	padding:10px 15px;
+	color:#555;
+	text-align:left;
+	font-size:14px;
+	border-bottom:solid;}
+table.feed th .total {
+	float:right;
+	vertical-align:top;
+	display:inline-block;}	
+table.feed td {white-space:normal;}
+table.feed td a {
+	padding:10px;
+	color:#333;
+	display:block;}	
+table.feed td .top {font-weight:bold;}
+table.feed td .bottom {
+	padding-top:5px;
+	color:#555;	
+	font-size:14px;}	
+table.feed td .size {float:right;}	
+table.feed td .date {padding-left:15px;}
+
+	
+	
+	
+	

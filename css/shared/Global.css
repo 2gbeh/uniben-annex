@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+body {background-color:#FFF;}
+code {
+	padding:5px 10px;
+	margin:10px 0;
+	display:block;}	
+.whitespace {
+	margin-top:40px; 
+	background-color:lavender;}	
+.overflow {overflow:auto;}
+.number-list, 
+.roman-list, 
+.alpha-list,
+.lalpha-list, 
+.bullet-list,
+.table-list, 
+.dashed-list {
+	margin:10px 0;}		
+.number-list li, 
+.roman-list li, 
+.alpha-list li, 
+.lalpha-list li, 
+.bullet-list li {
+	padding:5px 0;
+	list-style-position:inside;
+	display:list-item;}		
+.number-list > li {list-style-type:decimal;}
+.roman-list > li {list-style-type:lower-roman;}
+.alpha-list > li {list-style-type:upper-alpha;}
+.lalpha-list > li {list-style-type:lower-alpha;}
+.bullet-list > li {list-style-type:disc;}
+.table-list li {
+	padding:5px;
+	border-bottom:solid thin;}
+.dashed-list li {
+	padding:5px;
+	border-bottom:dashed thin;}	
+.figtable {}
+.pager {
+	padding:8px 10px;
+	margin:10px;
+	text-align:center;
+	font-size:14px;
+	border-radius:5px;
+	border:solid thin #DDD;
+	box-shadow:0 1px 1px #DDD;
+	display:block;}	
+.pager:hover {background-color:#EEE;}
+table.compact {width:auto;}
+table.compact td {padding-right:10px;}
+a.disabled {color:#551A8B; /*color:#EE1111;*/ font-weight:normal;}
+

@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* CSS Document */
+header {
+	top:0;	
+	padding:15px 20px;
+	color:#FFF;
+	font-weight:bold;
+	width:100%;
+	position:fixed;
+	z-index:99;}
+header a {display:block;}
+header img {
+	width:50px;
+	float:left;	
+	height:auto;
+	white-space:nowrap;}
+header .equiv {
+	padding:0;
+/*	background-color:red;*/
+	font-size:36px;
+	line-height:0.1;
+	float:right;
+	display:inline-block;
+	cursor:pointer;}
+
+
+header.alt {
+	padding:0 20px;
+	background-color:#FFF;
+	color:#333;
+	box-shadow:0 1px 2px 0 #DDD;}	
+header.alt img {width:45px;}
+header.alt .equiv {line-height:1.0;}
+	
+
+ul.top_menu {
+	margin-top:5px;
+	width:100%;	
+	position:fixed;
+	z-index:2;
+	display:none;}
+ul.top_menu li {display:block;}
+ul.top_menu li a {
+	padding:15px;
+	background-color:#222;
+	color:#FFF;
+	display:block;}
+ul.top_menu li a:hover {background-color:#333;}	
+	
+		
+nav {
+/*	background-color:red; */
+	border-bottom:solid thin #DDD;}
+nav table.menu tr {vertical-align:bottom;}
+nav table.menu td {
+	white-space:nowrap;
+	width:20%;}	
+nav table.menu td a {
+	padding:15px 0 10px;
+/*	background-color:#FFC;	*/
+	text-align:center;
+	font-size:14px;
+	border-bottom:solid 5px #FFF;
+	display:block;}
+nav table.menu td a:hover {
+	background-color:#EEE;
+	border-bottom:solid 5px #DDD;}
+nav table.menu td var {
+	padding:3px 5px;
+	margin-left:5px;
+	background-color:#EE1111;
+	color:#FFF;
+	font-size:10px;
+	font-weight:bold;
+	font-style:normal;
+	border-radius:15px;
+	position:relative;
+	z-index:1;}
+
+
+main, .wrap {
+	margin:0 auto;
+	width:600px;}
+	
+			
+footer {
+	margin:40px 0 10px;
+	color:#666;
+	text-align:center;
+	text-shadow:0 1px 0 #FFF;
+	font-size:14px;}
+footer .hotkey {	
+	color:#090; 
+	font-size:12px; 
+	letter-spacing:2px; 
+	cursor:pointer;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+

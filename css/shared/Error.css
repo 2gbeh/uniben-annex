@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+.ERROR {
+	padding:10px 15px;
+	margin:0 0 10px 0;
+	text-align:left;
+	font-size:13px;
+	box-shadow:0 2px 4px 0 #DDD;
+	-webkit-transition:display 2s;
+    transition:display 2s;}
+.ERROR a {
+	color:inherit;
+	text-decoration:underline;}	
+.ERROR p {
+	padding-top:5px;
+	font-weight:bold;}
+.ERROR-CANCEL {
+	font-size:14px;
+	line-height:0.6;
+	float:right;}
+.ERROR-CANCEL:hover {
+	color:#333;
+	cursor:pointer;}	
+.ERROR-PRIMARY
+{
+	background-color:#337ab7;	
+	color:#fff;	
+/*	border-left:solid #337ab7;	*/
+}
+.ERROR-SUCCESS
+{
+	background-color:#dff0d8;	
+	color:#3c763d;	
+/*	border-left:solid #3c763d;*/
+}
+.ERROR-INFO
+{
+	background-color:#d9edf7;	
+	color:#337ab7;	
+/*	border-left:solid #337ab7;*/
+}
+.ERROR-WARNING
+{
+	background-color:#fcf8e3;
+	color:#f0ad4e;		
+/*	border-left:solid #f0ad4e;*/
+}
+.ERROR-DANGER
+{
+	background-color:#f2dede;	
+	color:#d9534f;	
+/*	border-left:solid #d9534f;*/
+}
+.ERROR-DEFAULT
+{
+	background-color:#f5f5f5;	
+	color:#666;	
+/*	border-left:solid #666;*/
+}
+.ERROR-PRESET
+{
+	background-color:transparent;	
+	color:#666;	
+/*	border-left:solid #EE1111;*/
+}

@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+.admin_table main {width:auto;}
+
+
+h2 {
+	margin:10px;
+	color:#555;
+	font-size:18px;}
+ul.tab {
+	margin:10px;
+	display:block;}
+ul.tab li a {display:inline-block;}
+ul.tab li a:hover {text-decoration:underline;}
+ul.tab li a.active {
+	text-decoration:underline;
+	font-weight:bold;}
+
+
+input, 
+textarea {
+	padding:10px 15px;
+	margin:5px 0;
+	width:100%;
+	border:solid thin #555;}
+input:focus, 
+textarea:focus {background-color:#FFC;}	
+input[type="submit"], 
+input[type="reset"] {
+	padding-top:12px;
+	padding-bottom:12px;
+	color:#FFF;
+	border:none;}
+input[type="reset"] {background-color:#333;}
+input[type="reset"]:hover {background-color:#222;}
+
+
+.input-file {
+	margin:5px 0;
+	border:solid thin #555;}	
+.input-file label {
+	color:#555;
+	font-size:14px;} 
+.input-file input {
+	margin:0;
+	border:none;}
+.input-file label, 
+.input-file input {
+	padding:6px 15px;	
+	width:auto;
+	display:inline-block;
+	cursor:pointer;}	
+
+
+table.list {
+	margin:0 10px;
+	font-size:14px;}
+table.list th {
+	padding:5px 10px;
+	text-transform:capitalize;
+	border-bottom:solid 5px;}
+table.list td {
+	padding:0 10px;
+	border-bottom:solid thin #DDD;}
+table.list td.nowrap {white-space:normal;}
+table.list td a {
+	padding:5px 10px;	
+	margin:5px 0;
+	background-color:#222;
+	color:#FFF;
+	font-size:12px;}
+table.list td a.btn-pri {background-color:#090;}
+table.list td a.btn-sec {background-color:#EE1111;}
+table.list tr:hover td {background-color:#EEE;}

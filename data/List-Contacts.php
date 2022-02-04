@@ -1,0 +1,45 @@
+<?PHP
+$listContacts = array 
+(
+'pg2018_111892,Adonor Blessed Eromosele',
+'pg2018_113852,Aisien Favour Monday,08069471864',
+'pg2018_110433,Aiyeduyomi Samuel,08060686696',
+'pg2018_110282,Akahomhen-Fredrick Brenda Bazuaye,08034161383',
+'pg2018_111413,Akinbo Ilesanmi Martins,09090806427',
+'pg2018_112301,Akinduro Sarah Funmilayo,08185772667',
+'pg2018_113716,Akpata Nosakhare David,08060873840',
+'pg2018_110454,Ariakpore Oghenerume,08064931795',
+'pg2018_112253,Atagoshi Prince Chijioke,07034471302',
+'pg2018_114947,Bakare Sofiat Kehinde,08167832776',
+
+'pg2018_111219,Dan Emmanuel Ambrose',
+'pg2018_112669,Ehimiyein Osehi Grace,07067769240',
+'pg2018_114726,Elaiho Dennis Osarumen,08037942235',
+'pg2018_111148,Enemuoh Chika Magdalene,08130454811',
+'pg2018_112199,Imadonmwinyi Osazee Frank,08177272635',
+'pg2018_113180,Imhanlahimi Deodata Oseremen',
+'pg2018_112110,Nonum Ifeoma Elizabeth',
+'pg2018_114918,Obiechina Chioma Chiagozie,07066525040',
+'pg2018_110651,Oboro Oizamisi Folusho,08158688636',
+'pg2018_111580,Ojumah Onyekachukwu Faith',
+
+'pg2018_110531,Okojie Faith',
+'pg2018_115215,Okoro Juliana Anwuli,08039200508',
+'pg2018_110634,Okpala Azuka Precious,08164670916',
+'pg2018_112622,Olaifa Matthew Ojo',
+'pg2018_113480,Olarinde Mobolaji Olusola',
+'pg2018_111542,Olateju Abideen Olaitan',
+'pg2018_112214,Oluwawemimo Tolulope,08061583213',
+'pg2018_111258,Omobude Ehikioya Kelly',
+'pg2018_111907,Oriri Chekumechukwu Emmanuella,07056863902',
+'pg2018_111254,Oshomoh Harrison Mizenobime,07066416750',
+
+'pg2018_112576,Oyewole Olusola',
+'pg2018_113030,Suleiman Nachanuya,08160590597',
+'pg2018_112896,Sunday Omoruyi,07034499753',
+'pg2018_110195,Tugbeh Emmanuel Osaretin,08169960927',
+'pg2018_111453,Tunde-Adeleke Ti-Jesu Rejoice,08072104022',
+'pg2018_112636,Uduehi Omoyemen Mercy,08072057604',
+'pg2018_112820,Umar Mohammed Hafiz,08036920578',
+);
+?>

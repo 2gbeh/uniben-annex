@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+main {width:100%;}
+ul.feed {
+	margin:10px 0 20px 0;
+	text-align:center;
+	display:block;}
+ul.feed li {
+	margin:5px;
+	width:250px;
+	text-align:left;
+	display:inline-block;	
+	box-shadow:0 1px 2px 0 #DDD;}
+ul.feed li .top {
+	padding:10px;
+	border-radius:5px 5px 0 0;}
+ul.feed li .bottom div {border-bottom:solid thin #DDD;}
+ul.feed li .name {font-size:24px;}
+ul.feed li .matno {
+	margin:5px 0 0;
+	color:#555;
+	font-size:14px;}
+ul.feed li .phone {
+	padding:5px 10px;	
+	background-color:#EEE;}
+ul.feed li label {
+	text-transform:uppercase;
+	font-size:14px; 
+	font-weight:bold;}

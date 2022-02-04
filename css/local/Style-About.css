@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+main {
+	padding-top:120px;
+	text-align:center;}
+	
+
+main .appname {font-size:32px;}
+main .bundle {
+	color:#090; 
+	font-size:14px;}
+main .copyright {
+	margin:10px 0; 
+	font-size:16px;}
+main .about {margin:20px 10px;}
+
+
+main ul.contact li {
+	color:#000;
+	margin:10px;
+	width:75px;
+	font-size:12px;
+/*	font-weight:bold;*/}
+main ul.contact li:hover {
+	color:#090;	
+	cursor:pointer;}
+main ul.contact li img {width:25px;}	
+main ul.contact li:nth-child(2) img {width:32px;}		

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+	Cyan 	#0093DD
+	Lyan	#75C5F0	
+	Dyan	#007BB8
+	Call	#16BC00
+	Uncall	#090	
+*/
+header,
+.admin input[type="submit"] {
+	background-color:#0093DD;}
+
+
+.news .byline, 
+.blog .byline, 
+.blog article a,
+.downloads table.feed th .total, 
+.calendar ul.feed li sup,
+.admin ul.tab li a {
+	color:#0093DD;}	
+
+
+.news ul.feed li a:hover, 
+.downloads table.feed tr:hover td {
+	border-bottom:solid thin #0093DD;}	
+
+
+nav table.menu td a.active {
+	border-bottom:solid 5px #0093DD;}		
+
+
+code {border-left:solid 5px #0093DD;}
+	
+	
+.admin input[type="submit"]:hover {
+	background-color:#007BB8;}	
+	
+	

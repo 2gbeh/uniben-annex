@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+ul.feed li {display:block;}
+ul.feed li a {
+	padding:5px 10px;
+	display:block;
+	border-bottom:solid thin #DDD;}	
+ul.feed li:last-child a {border:none;}	
+
+
+table.post td {
+	white-space:normal;}
+table.post td.left {
+	padding:5px 0;
+	width:120px;}
+table.post td.right {padding-left:10px;}	
+
+
+table.post .thumbnail {height:100px;}
+table.post .headline {font-weight:bold;}	
+table.post .byline {
+	padding:10px 0 5px;
+	font-size:14px;}	
+table.post .footnote {
+	color:#555;
+	font-size:14px;}
+
+
+
+	
+	
+	
+	
+	
